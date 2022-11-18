@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+
+}
+
+.btn {
+  text-align: center;
+  background-color: #3F6ED6;
+  color: rgb(255, 255, 255);
+  border: 2px solid #3F6ED6;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #3F6ED6;
+}
