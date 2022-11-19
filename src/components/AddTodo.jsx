@@ -1,12 +1,10 @@
 import { useState } from "react"
 
 const AddTodo = ({addTodo}) => {
-
     const [input, setInput] = useState('');
 
-
     const handleChange = (e)=>{
-        setInput(e.target.value);
+        setInput(e.target.value.trim());
     }
 
     const handleSubmit = (e)=>{
