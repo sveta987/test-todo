@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import Todo from "./Todo";
 
-const Todos = ( {todos, removeTodo, doneTodo, editTodo} ) => {
-  return( todos.map( (todo, index)=>(
+const Todos = ({todos, removeTodo, doneTodo, editTodo}) => {
+  return (todos.map((todo, index) => (
       <Todo todo={todo}
             index={index}
             removeTodo={removeTodo}
@@ -10,9 +10,9 @@ const Todos = ( {todos, removeTodo, doneTodo, editTodo} ) => {
             editTodo={editTodo}
             key={index}
       />
-  ))
-)
+    ))
+  )
 }
-export default Todos
+export default Todos;
 
 
